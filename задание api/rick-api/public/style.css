@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: #1e1e1e;
+    color: #eee;
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00ffcc;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    background: #2e2e2e;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button.delete {
+    margin-top: 10px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
